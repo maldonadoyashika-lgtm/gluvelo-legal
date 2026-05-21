@@ -32,6 +32,13 @@
       margin-top: 40px;
       margin-bottom: 12px;
     }
+    h3 {
+      font-size: 15px;
+      color: #2D4A3E;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-style: italic;
+    }
     p { margin-bottom: 16px; }
     ul {
       padding-left: 20px;
@@ -46,6 +53,24 @@
       font-style: italic;
       margin-bottom: 32px;
     }
+    .notice-box {
+      background: #fff;
+      border-left: 4px solid #B5694A;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 15px;
+    }
+    .toc {
+      background: #fff;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+      font-size: 14px;
+    }
+    .toc ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+    .toc li { margin-bottom: 4px; }
   </style>
 </head>
 <body>
@@ -55,9 +80,139 @@
 
   <p class="tagline">Your health data is yours. We don't sell it, share it, or monetize it.</p>
 
-  <p>Gluvelo is a personal health tracking app built for people managing chronic conditions, medications, and dietary needs. This policy explains clearly what we collect, why, and what we don't do with it.</p>
+  <div class="notice-box">
+    <strong>Important:</strong> Gluvelo is a personal tracking tool, not a medical service. Nothing in this app constitutes medical advice. See the Medical Disclaimer section below.
+  </div>
 
-  <h2>Medical Disclaimer</h2>
+  <div class="toc">
+    <strong>Contents</strong>
+    <ol>
+      <li>About This Policy &amp; HIPAA</li>
+      <li>What We Collect</li>
+      <li>Sensitive Health Data</li>
+      <li>How We Use Your Data</li>
+      <li>Algorithmic Processing</li>
+      <li>Data Retention</li>
+      <li>Where Your Data Is Stored</li>
+      <li>Security &amp; Breach Notification</li>
+      <li>Who We Share It With</li>
+      <li>No Sale to Insurers or Employers</li>
+      <li>De-Identified &amp; Anonymized Data</li>
+      <li>Notifications</li>
+      <li>Medical Disclaimer</li>
+      <li>Limitation of Liability</li>
+      <li>Age Requirements</li>
+      <li>Your Rights</li>
+      <li>California Residents (CCPA)</li>
+      <li>Washington State Residents (My Health My Data Act)</li>
+      <li>International Users &amp; GDPR</li>
+      <li>Authorized Agents</li>
+      <li>Cookies &amp; Tracking Technologies</li>
+      <li>Changes to This Policy</li>
+      <li>Contact &amp; Privacy Requests</li>
+    </ol>
+  </div>
+
+  <p>Gluvelo is a personal health tracking app for people managing chronic conditions, medications, and dietary needs. This policy explains clearly what we collect, why, and what we don't do with it.</p>
+
+  <!-- 1 -->
+  <h2>1. About This Policy &amp; HIPAA</h2>
+  <p>Gluvelo is not a HIPAA-covered entity. We are not a healthcare provider, health plan, or healthcare clearinghouse, and we do not conduct electronic healthcare transactions as defined under HIPAA. The federal HIPAA privacy protections that apply to your doctor or insurance company do not automatically apply to Gluvelo.</p>
+  <p>That said, we treat your health data with the same seriousness as if HIPAA applied — because we believe your health information is among the most sensitive data you can share. The protections in this policy are our voluntary commitment to you, enforceable under applicable state and federal consumer protection laws.</p>
+
+  <!-- 2 -->
+  <h2>2. What We Collect</h2>
+  <p>When you use Gluvelo, we store the following on your account:</p>
+  <ul>
+    <li>Your first name and email address</li>
+    <li>Health profile: conditions, medications, dietary restrictions, food sensitivities, biological sex</li>
+    <li>Logs you create: injection records, side effect entries, food scans, weight and measurements, vial inventory, supplement tracking</li>
+    <li>Journal entries you write</li>
+    <li>App usage: streak counts, onboarding completion, notification preferences</li>
+  </ul>
+  <p>We do not collect your precise location, contacts, payment information, Social Security number, government-issued ID, or any data you have not explicitly entered.</p>
+
+  <!-- 3 -->
+  <h2>3. Sensitive Health Data</h2>
+  <p>Under applicable privacy laws — including the California Consumer Privacy Act (CCPA), the Washington My Health My Data Act (MHMDA), and others — certain categories of information you log in Gluvelo are classified as <strong>sensitive personal information</strong> or <strong>consumer health data</strong>. These include:</p>
+  <ul>
+    <li>Health conditions (Type 2 Diabetes, Pre-diabetes, chronic conditions)</li>
+    <li>Medication and treatment records (GLP-1 medications, peptides, supplements)</li>
+    <li>Injection logs, dosage records, and titration data</li>
+    <li>Side effect journals</li>
+    <li>Body measurements (weight, waist, hips) — considered biometric data in some jurisdictions</li>
+    <li>Food tolerance and reaction logs</li>
+    <li>UTI history, if logged</li>
+  </ul>
+  <p>We apply heightened protections to this category of data. We do not use sensitive health data for advertising, and we do not sell it to any party under any circumstances.</p>
+
+  <!-- 4 -->
+  <h2>4. How We Use Your Data</h2>
+  <p>Your data is used only to make the app work for you:</p>
+  <ul>
+    <li>To display your protocol, logs, and progress inside the app</li>
+    <li>To generate your personal health record PDF</li>
+    <li>To send dose reminders and vial expiry notifications (only if you enable them)</li>
+    <li>To provide food scanner verdicts calibrated to your health profile</li>
+    <li>To maintain your streak and milestone history</li>
+  </ul>
+  <p>We do not use your health data for advertising, sell it to third parties, or share it with data brokers, pharmaceutical companies, insurance companies, or employers — ever.</p>
+
+  <!-- 5 -->
+  <h2>5. Algorithmic Processing</h2>
+  <p>Gluvelo's food scanner uses automated logic to generate Green, Amber, or Red verdicts based on nutritional data and your health profile. This is algorithmic decision-making that affects how information is presented to you. The verdict logic weighs factors such as sugar content, fat content, glycemic index, fiber, and your logged conditions (e.g. diabetes weighting).</p>
+  <p>These verdicts are estimates based on third-party nutritional data and your self-reported profile. They are not medical recommendations. We do not use your health data to train external AI models, and we do not share it with AI or machine-learning service providers.</p>
+
+  <!-- 6 -->
+  <h2>6. Data Retention</h2>
+  <ul>
+    <li><strong>Active account:</strong> All data you log is retained for as long as your account is active.</li>
+    <li><strong>After account deletion:</strong> Your personal data is permanently deleted from our live systems within 30 days of account deletion.</li>
+    <li><strong>Backups:</strong> Residual copies in automated backup systems may persist for up to 90 days before being overwritten, after which they are fully purged.</li>
+    <li><strong>Anonymized data:</strong> We may retain anonymized, non-identifiable aggregate data (e.g. aggregate usage statistics) indefinitely. This data cannot be linked back to you.</li>
+    <li><strong>Legal holds:</strong> If we are required by law to retain certain data, we will retain only what is legally required and for no longer than the law mandates.</li>
+  </ul>
+
+  <!-- 7 -->
+  <h2>7. Where Your Data Is Stored</h2>
+  <p>Your data is stored in Google Firebase (Firestore), a cloud database with industry-standard encryption at rest and in transit. Firebase servers are operated by Google and may be located in the United States or other countries where Google operates data centers. Only you can access your own data — Gluvelo's Firestore security rules enforce this at the server level, meaning no other user can read your records.</p>
+
+  <!-- 8 -->
+  <h2>8. Security &amp; Breach Notification</h2>
+  <p>We use the following measures to protect your data:</p>
+  <ul>
+    <li>Encryption at rest and in transit (provided by Firebase/Google)</li>
+    <li>Server-side Firestore rules that restrict each user to their own data</li>
+    <li>Minimum 8-character password enforcement at account creation</li>
+    <li>Firebase Authentication for identity management</li>
+    <li>No storage of API keys or credentials in the app's source code</li>
+  </ul>
+  <p>No system is perfectly secure. If we become aware of a data breach that affects your personal or health information, we will notify you via email within 72 hours of discovering the breach, and we will cooperate with applicable regulatory authorities as required by law.</p>
+
+  <!-- 9 -->
+  <h2>9. Who We Share It With</h2>
+  <p>We do not sell, rent, or share your personal health data with any third party. The only services that handle your data are:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> — secure data storage and authentication. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+    <li><strong>Open Food Facts</strong> — when you scan a barcode, the barcode number is sent to their public API to look up product information. No personal data is sent. <a href="https://world.openfoodfacts.org/privacy" target="_blank">Open Food Facts Privacy Policy</a></li>
+    <li><strong>Expo Notifications</strong> — if you enable push notifications, Expo's service is used to deliver them. No health data is transmitted. <a href="https://expo.dev/privacy" target="_blank">Expo Privacy Policy</a></li>
+  </ul>
+  <p>We do not use advertising networks, third-party analytics services, or data brokers. If this ever changes, we will update this policy and notify you in the app before any new data sharing begins.</p>
+
+  <!-- 10 -->
+  <h2>10. No Sale to Insurers or Employers</h2>
+  <p>We will never share, sell, or disclose your health data — including medication logs, conditions, body measurements, or any other information you enter — to insurance companies, employers, data brokers, or pharmaceutical companies. This applies whether the data is identifiable or aggregated.</p>
+
+  <!-- 11 -->
+  <h2>11. De-Identified &amp; Anonymized Data</h2>
+  <p>We may create anonymized, de-identified data sets from aggregate usage patterns (e.g. "what percentage of users log a side effect in week 3"). This data cannot be linked back to any individual user. We do not sell anonymized data. We may use it internally to improve the app. We will never attempt to re-identify anonymized data.</p>
+
+  <!-- 12 -->
+  <h2>12. Notifications</h2>
+  <p>If you enable push notifications, we use Expo's notification service to deliver dose reminders and vial expiry alerts. You can turn these off at any time in your device settings or from the Profile tab in the app.</p>
+
+  <!-- 13 -->
+  <h2>13. Medical Disclaimer</h2>
   <p><strong>Gluvelo is a personal tracking tool only. It is not a medical device, medical service, or substitute for professional medical advice, diagnosis, or treatment.</strong></p>
   <p>Any information displayed in the app relating to peptides, GLP-1 medications, compounded medications, or other compounds — including dosage schedules, titration protocols, reconstitution instructions, and vial calculations — is provided for personal logging and informational reference only. Gluvelo does not prescribe, recommend, or endorse the use of any medication, compound, or peptide. You are solely responsible for any decisions you make regarding your medication use, dosages, and health practices. Always consult a licensed healthcare professional before starting, adjusting, or stopping any medication or compound.</p>
   <p>Gluvelo's food scanner provides verdicts based on general nutritional guidelines and the health profile you enter. These verdicts are estimates only and may be incomplete, inaccurate, or not appropriate for your individual health situation. Gluvelo is not liable for any harm, adverse reaction, or health outcome resulting from reliance on food scanner results. You are responsible for verifying nutritional information independently and making your own food choices.</p>
@@ -69,61 +224,97 @@
     <li>Gluvelo, its developers, and affiliates are not liable for any injury, illness, adverse reaction, or other harm arising from your use of the app or reliance on its content.</li>
   </ul>
 
-  <h2>What we collect</h2>
-  <p>When you use Gluvelo, we store the following information on your account:</p>
-  <ul>
-    <li>Your first name and email address (used to identify your account)</li>
-    <li>Health profile information you enter: conditions, medications, dietary restrictions, food sensitivities, and biological sex</li>
-    <li>Logs you create: injection records, side effect entries, food scans, weight and measurements, vial inventory, and supplement tracking</li>
-    <li>App usage data: streak counts, onboarding progress</li>
-  </ul>
-  <p>We do not collect your precise location, contacts, or any data you haven't explicitly entered.</p>
-
-  <h2>How we use it</h2>
-  <p>Your data is used only to make the app work for you:</p>
-  <ul>
-    <li>To display your protocol, logs, and progress inside the app</li>
-    <li>To generate your personal health record PDF</li>
-    <li>To send you dose reminders and vial expiry notifications (only if you enable them)</li>
-    <li>To provide the food scanner verdicts calibrated to your health profile</li>
-  </ul>
-  <p>We do not use your health data for advertising, analytics sold to third parties, or any purpose beyond running the app for you.</p>
-
-  <h2>Where your data is stored</h2>
-  <p>Your data is stored securely in Google Firebase (Firestore), a cloud database with industry-standard encryption at rest and in transit. Only you can access your own data — Gluvelo's database rules enforce this at the server level.</p>
-
-  <h2>Who we share it with</h2>
-  <p>We do not sell, rent, or share your personal health data with any third party. Ever.</p>
-  <p>The only services that handle your data are:</p>
-  <ul>
-    <li><strong>Google Firebase</strong> — secure data storage and authentication</li>
-    <li><strong>Open Food Facts</strong> — when you scan a barcode, the barcode number is sent to their public API to look up product information. No personal data is sent.</li>
-  </ul>
-
-  <h2>Notifications</h2>
-  <p>If you enable push notifications, we use Expo's notification service to deliver dose reminders and vial expiry alerts. You can turn these off at any time in your device settings.</p>
-
-  <h2>Your rights</h2>
-  <p>You can delete your account and all associated data at any time from the Profile tab in the app. Once deleted, your data is permanently removed from our servers within 30 days.</p>
-
-  <h2>Children</h2>
-  <p>Gluvelo is not intended for users under 13. We do not knowingly collect data from children.</p>
-
-  <h2>Limitation of Liability</h2>
+  <!-- 14 -->
+  <h2>14. Limitation of Liability</h2>
   <p>To the fullest extent permitted by applicable law, Gluvelo and its developer(s) shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from:</p>
   <ul>
     <li>Your use of or reliance on any content in the app, including food scanner verdicts, dosage displays, or protocol information</li>
     <li>Errors, inaccuracies, or omissions in barcode scan results or nutritional data sourced from third-party databases</li>
     <li>Any decisions you make regarding medication, compounds, peptides, or dietary choices based on information in the app</li>
     <li>Any action or inaction taken by you or any other person in connection with use of this app</li>
+    <li>Unauthorized access to or alteration of your data due to circumstances beyond our reasonable control</li>
   </ul>
   <p>Use of this app is entirely at your own risk. The app is provided "as is" without warranty of any kind, express or implied.</p>
 
-  <h2>Changes to this policy</h2>
-  <p>If we make material changes to this policy, we'll notify you in the app. The "last updated" date at the top will always reflect the current version.</p>
+  <!-- 15 -->
+  <h2>15. Age Requirements</h2>
+  <p>Gluvelo is intended for users 18 years of age and older. Given the nature of the health data tracked — including prescription and compounded medications, injection logs, and chronic conditions — the app is not appropriate for minors.</p>
+  <p>We do not knowingly collect personal information from anyone under 18. If we become aware that a user under 18 has created an account, we will promptly delete their account and all associated data. If you believe a minor has created an account, please contact us at <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a> and we will take immediate action.</p>
 
-  <h2>Contact</h2>
-  <p>Questions about your privacy? Email us at <a href="mailto:hello@gluvelo.com">hello@gluvelo.com</a>.</p>
+  <!-- 16 -->
+  <h2>16. Your Rights</h2>
+  <p>Regardless of where you live, you have the following rights over your Gluvelo data:</p>
+  <ul>
+    <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+    <li><strong>Correction:</strong> Request correction of inaccurate data.</li>
+    <li><strong>Deletion:</strong> Delete your account and all associated data at any time from the Profile tab. Data is permanently removed within 30 days.</li>
+    <li><strong>Portability:</strong> Request an export of your data in a portable format.</li>
+    <li><strong>Withdrawal of consent:</strong> Stop using the app at any time. Deletion of your account withdraws your consent to our processing of your data.</li>
+  </ul>
+  <p>To exercise any of these rights, email <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a>. We will respond within 30 days (or the shorter timeline required by your jurisdiction's law).</p>
+
+  <!-- 17 -->
+  <h2>17. California Residents — CCPA Rights</h2>
+  <p>If you are a California resident, the California Consumer Privacy Act (CCPA), as amended by the CPRA, gives you the following additional rights:</p>
+  <ul>
+    <li><strong>Know:</strong> The right to know what personal information we collect, use, disclose, and sell (we do not sell).</li>
+    <li><strong>Delete:</strong> The right to request deletion of your personal information.</li>
+    <li><strong>Correct:</strong> The right to request correction of inaccurate personal information.</li>
+    <li><strong>Opt out of sale/sharing:</strong> We do not sell or share your personal information for cross-context behavioral advertising.</li>
+    <li><strong>Limit use of sensitive personal information:</strong> You may request that we limit use of your sensitive personal information (including health data) to only what is necessary to provide the app. Contact us to make this request.</li>
+    <li><strong>Non-discrimination:</strong> We will not discriminate against you for exercising any of these rights.</li>
+    <li><strong>Authorized agent:</strong> You may designate an authorized agent to submit requests on your behalf. See Section 20.</li>
+  </ul>
+  <p>To exercise California privacy rights, email <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a> with the subject line "California Privacy Request." We will verify your identity before processing the request.</p>
+  <p><strong>Categories of personal information collected:</strong> Identifiers (name, email); health and medical information; commercial information (subscription status); usage data (streaks, onboarding progress). We do not sell any of these categories.</p>
+
+  <!-- 18 -->
+  <h2>18. Washington State Residents — My Health My Data Act</h2>
+  <p>If you are a Washington State resident, the Washington My Health My Data Act (MHMDA), effective 2024, provides additional rights specific to consumer health data. Gluvelo collects data types covered by this law, including medication logs, body measurements, health conditions, and symptom tracking.</p>
+  <p>Under the MHMDA, you have the right to:</p>
+  <ul>
+    <li>Confirm whether we collect your consumer health data and obtain a list of the categories we collect</li>
+    <li>Access the specific consumer health data we have collected about you</li>
+    <li>Withdraw your consent to our collection of consumer health data at any time (by deleting your account)</li>
+    <li>Have your consumer health data deleted</li>
+    <li>Appeal a denial of any of these rights</li>
+  </ul>
+  <p>We will not sell your consumer health data, will not share it with third parties for advertising, and will not use it to track your location or share it with data brokers. To exercise these rights, email <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a> with the subject line "Washington Health Data Request."</p>
+
+  <!-- 19 -->
+  <h2>19. International Users &amp; GDPR</h2>
+  <p>Gluvelo is currently operated from the United States. If you access the app from outside the United States, your data will be transferred to and processed in the U.S., where privacy laws may differ from those in your country.</p>
+  <p>If you are located in the European Economic Area (EEA), United Kingdom, or Switzerland, the General Data Protection Regulation (GDPR) or equivalent laws apply. Your rights under GDPR include the right to access, correct, erase, restrict, and port your data, and to object to processing. Our lawful basis for processing your health data is your explicit consent, given when you create an account and enter your health profile.</p>
+  <p>To exercise GDPR rights or to lodge a complaint, email <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a>. You also have the right to lodge a complaint with your local supervisory authority.</p>
+
+  <!-- 20 -->
+  <h2>20. Authorized Agents</h2>
+  <p>You may designate an authorized agent — such as a family member, caretaker, or attorney — to submit privacy requests on your behalf. To do so, the agent must email <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a> with:</p>
+  <ul>
+    <li>Your name and the email address associated with your Gluvelo account</li>
+    <li>A written statement signed by you authorizing the agent to act on your behalf</li>
+    <li>The agent's name and contact information</li>
+  </ul>
+  <p>We will verify the authorization before processing any request. This is especially relevant for users in Caretaker Mode who may manage health data on behalf of another person.</p>
+
+  <!-- 21 -->
+  <h2>21. Cookies &amp; Tracking Technologies</h2>
+  <p>The Gluvelo mobile app does not use advertising cookies or third-party tracking SDKs. Firebase may use device identifiers for authentication and crash reporting purposes.</p>
+  <p>If you visit the Gluvelo website, it may use essential cookies required for the site to function. We do not use advertising cookies, third-party analytics, or behavioral tracking on our website. If this changes, we will update this policy and provide opt-out options.</p>
+
+  <!-- 22 -->
+  <h2>22. Changes to This Policy</h2>
+  <p>If we make material changes to this policy, we will notify you in the app before the changes take effect. The "last updated" date at the top will always reflect the current version. Continued use of the app after a policy update constitutes acceptance of the revised policy.</p>
+
+  <!-- 23 -->
+  <h2>23. Contact &amp; Privacy Requests</h2>
+  <p>All privacy requests — including data access, deletion, correction, and rights exercises — should be directed to our privacy contact:</p>
+  <p>
+    <strong>Privacy Contact: Gluvelo</strong><br />
+    Email: <a href="mailto:privacy@gluvelo.com">privacy@gluvelo.com</a><br />
+    General inquiries: <a href="mailto:hello@gluvelo.com">hello@gluvelo.com</a>
+  </p>
+  <p>We will acknowledge your request within 5 business days and respond substantively within 30 days (or the shorter period required by applicable law).</p>
 
 </body>
 </html>
