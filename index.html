@@ -76,7 +76,7 @@
 <body>
 
   <h1>Gluvelo Privacy Policy</h1>
-  <p class="updated">Last updated: May 2026</p>
+  <p class="updated">Last updated: June 2026</p>
 
   <p class="tagline">Your personal health data is never sold or shared. De-identified aggregate data may be used to advance health research.</p>
 
@@ -156,8 +156,7 @@
     <li>To send dose reminders and vial expiry notifications (only if you enable them)</li>
     <li>To provide food scanner verdicts calibrated to your health profile</li>
     <li>To maintain your streak and milestone history</li>
-    <li>To diagnose crashes and technical issues (via crash reporting)</li>
-    <li>To understand how features are used so we can improve the app (via behavioral analytics)</li>
+    <li>To process subscription purchases if you upgrade to a paid plan</li>
   </ul>
   <p>We do not use your personal or identifiable health data for advertising, and we do not sell it to third parties. De-identified aggregate data may be used for research purposes as described in Section 11.</p>
 
@@ -179,7 +178,6 @@
   <!-- 7 -->
   <h2>7. Where Your Data Is Stored</h2>
   <p>Your data is stored in Google Firebase (Firestore), a cloud database with industry-standard encryption at rest and in transit. Firebase servers are operated by Google and may be located in the United States or other countries where Google operates data centers. Only you can access your own data — Gluvelo's Firestore security rules enforce this at the server level.</p>
-  <p>App infrastructure and any web-facing services may be hosted on Vercel, which processes request metadata (such as IP addresses and request logs) as part of normal hosting operations. Vercel does not have access to your health data stored in Firebase.</p>
 
   <!-- 8 -->
   <h2>8. Security &amp; Breach Notification</h2>
@@ -198,10 +196,7 @@
   <p>We do not sell, rent, or share your personal health data with third parties. The services that may handle your data are:</p>
   <ul>
     <li><strong>Google Firebase (Firestore &amp; Auth)</strong> — secure data storage and authentication. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
-    <li><strong>Firebase Analytics (Google)</strong> — in-app usage analytics to understand how features are used. Collects anonymized usage events (screens viewed, features tapped). No health data fields are sent. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
-    <li><strong>Firebase Crashlytics (Google)</strong> — crash reporting. Collects device info, OS version, app version, and stack traces when the app crashes. No health data is included in crash reports. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
-    <li><strong>Behavioral Analytics (e.g. Mixpanel or Amplitude)</strong> — in-app behavior tracking to understand feature usage patterns. Only anonymized events are transmitted — no names, emails, or health data fields. <a href="https://mixpanel.com/legal/privacy-policy/" target="_blank">Mixpanel Privacy Policy</a> / <a href="https://amplitude.com/privacy" target="_blank">Amplitude Privacy Policy</a></li>
-    <li><strong>Vercel</strong> — web hosting infrastructure. Processes request metadata (IP address, request logs) as part of normal hosting operations. Does not access your health data. <a href="https://vercel.com/legal/privacy-policy" target="_blank">Vercel Privacy Policy</a></li>
+    <li><strong>RevenueCat</strong> — manages in-app subscriptions and purchases. When you buy or restore a subscription, RevenueCat processes your purchase details and an anonymous app-user identifier and device information to validate the transaction. No health data is sent. <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a></li>
     <li><strong>Open Food Facts</strong> — when you scan a barcode, the barcode number is sent to their public API. No personal data is sent. <a href="https://world.openfoodfacts.org/privacy" target="_blank">Open Food Facts Privacy Policy</a></li>
     <li><strong>Expo Notifications</strong> — delivers push notifications if you enable them. No health data is transmitted. <a href="https://expo.dev/privacy" target="_blank">Expo Privacy Policy</a></li>
   </ul>
@@ -318,13 +313,8 @@
 
   <!-- 21 -->
   <h2>21. Cookies &amp; Tracking Technologies</h2>
-  <p>The Gluvelo mobile app uses the following tracking and analytics tools:</p>
-  <ul>
-    <li><strong>Firebase Analytics</strong> — collects anonymized in-app usage events (screens visited, features tapped). You can opt out of Firebase Analytics data collection by contacting us.</li>
-    <li><strong>Firebase Crashlytics</strong> — collects crash reports including device information, OS version, and stack traces. No health data is included.</li>
-    <li><strong>Behavioral Analytics (e.g. Mixpanel or Amplitude)</strong> — tracks anonymized in-app behavior to help us understand how features are used. No names, emails, or health data fields are transmitted.</li>
-  </ul>
-  <p>None of these tools receive your identifiable health data. If you visit the Gluvelo website, it may be hosted on Vercel, which logs standard request metadata (IP address, browser type, page visited). We do not use advertising cookies or ad tracking networks on the website or in the app.</p>
+  <p>The Gluvelo mobile app does not use third-party behavioral analytics or advertising-tracking tools. We do not use advertising cookies, ad networks, or cross-app tracking, and we do not track your activity across other companies' apps or websites.</p>
+  <p>The app uses RevenueCat to process subscription purchases. When you buy or restore a subscription, RevenueCat receives your purchase details, an anonymous app-user identifier, and basic device information solely to validate the transaction. It does not receive your identifiable health data. <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a></p>
 
   <!-- 22 -->
   <h2>22. Changes to This Policy</h2>
